@@ -9,7 +9,7 @@ module.exports = {
         ecmaVersion: 13,
         sourceType: "module",
     },
-    plugins: ["html"],
+    plugins: ["html", "json"],
     rules: {
         "no-var": "warn",
     },
